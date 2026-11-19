@@ -1,0 +1,6 @@
+<aside class="author-profile">
+  <h3 class="author__name">{{ site.author.name }}</h3>
+  <p class="author__bio">{{ site.description }}</p>
+  {% if site.author.github %}<p class="author__urls"><a href="https://github.com/{{ site.author.github }}">GitHub</a></p>{% endif %}
+  {% if site.author.email %}<p class="author__urls"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>{% endif %}
+</aside>
